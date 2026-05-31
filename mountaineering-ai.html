@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mountaineering AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0e1419;
+    --paper: #f3f0e9;
+    --mist: #8a9aa8;
+    --glow: #e8a35c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: var(--ink);
+    color: var(--paper);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .logo { width: 56px; height: 56px; margin: 0 auto 10px; }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(32px, 6vw, 52px);
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .tagline { color: var(--mist); font-size: 20px; margin-bottom: 40px; }
+  .hline { width: 48px; height: 1px; background: var(--mist); opacity: 0.4; border: 0; margin: 0 auto 20px; }
+  .about { max-width: 480px; margin: 0 auto 20px; }
+  .about img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 12px; }
+  .about-eyebrow { color: var(--mist); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 4px; }
+  .about-name { font-family: 'Fraunces', serif; font-weight: 500; font-size: 22px; margin-bottom: 16px; }
+  .about p { color: var(--paper); font-size: 16px; line-height: 1.6; opacity: 0.85; }
+  .meta { color: var(--mist); font-size: 14px; letter-spacing: 0.05em; }
+  .meta a { color: var(--glow); text-decoration: none; }
+  .meta a:hover { text-decoration: underline; }
+  .divider { color: var(--mist); opacity: 0.4; margin: 0 10px; }
+</style>
+</head>
+<body>
+  <main>
+    <svg class="logo" viewBox="0 0 100 100" fill="none">
+      <path d="M10 80 L38 28 L52 52 L66 22 L90 80 Z" stroke="#e8a35c" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M38 28 L46 42 L30 42 Z" fill="#f3f0e9"/>
+    </svg>
+    <h1>Mountaineering AI</h1>
+    <p class="tagline">Climbing the AI Mountain</p>
+    <hr class="hline">
+    <section class="about">
+      <p class="about-eyebrow">Meet the Founder</p>
+      <p class="about-name">Casey Johnson</p>
+      <img src="https://media.licdn.com/dms/image/v2/D4E03AQEplv1w-rPJKg/profile-displayphoto-crop_800_800/B4EZ1kwa2WIEAI-/0/1775511909258?e=1781740800&v=beta&t=pAemZfipUyiVuYm9KW1GQGyW-e3iHqgsoQCqd0wDqmM" alt="Casey Johnson">
+      <p>With experience leading high-visibility AI projects at Universal and Disney theme parks worldwide, Casey is a leading expert in applied AI for the attractions industry. He holds a degree in computer science from West Virginia University.</p>
+    </section>
+    <hr class="hline">
+    <p class="meta">
+      Orlando, FL
+      <span class="divider">·</span>
+      <a href="mailto:casey.johnson@mountaineering.ai">casey.johnson@mountaineering.ai</a>
+    </p>
+  </main>
+</body>
+</html>
