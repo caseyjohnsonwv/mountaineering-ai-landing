@@ -55,6 +55,21 @@
   .meta a { color: var(--glow); text-decoration: none; }
   .meta a:hover { text-decoration: underline; }
   .divider { color: var(--mist); opacity: 0.4; }
+  .cta {
+    display: inline-block;
+    margin-bottom: 28px;
+    padding: 12px 28px;
+    background: var(--glow);
+    color: var(--ink);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+    transition: opacity 0.15s;
+  }
+  .cta:hover { opacity: 0.85; }
   @media (max-width: 400px) {
     .meta { flex-direction: column; gap: 4px; }
     .divider { display: none; }
@@ -68,19 +83,22 @@
       <path d="M38 28 L46 42 L30 42 Z" fill="#f3f0e9"/>
     </svg>
     <h1>Mountaineering AI</h1>
-    <p class="tagline">Climbing the AI Mountain</p>
+    <p class="tagline">Applied AI for Attractions & Hospitality</p>
     <hr class="hline">
     <section class="about">
       <p class="about-eyebrow">Meet the Founder</p>
       <p class="about-name">Casey Johnson</p>
-      <img src="https://media.licdn.com/dms/image/v2/D4E03AQEplv1w-rPJKg/profile-displayphoto-crop_800_800/B4EZ1kwa2WIEAI-/0/1775511909258?e=1781740800&v=beta&t=pAemZfipUyiVuYm9KW1GQGyW-e3iHqgsoQCqd0wDqmM" alt="Casey Johnson">
-      <p>With experience leading high-visibility AI projects at Disney and Universal, Casey is a worldwide expert in applied AI for the attractions industry. He holds a degree in computer science from West Virginia University.</p>
+      <img src="casey.png" alt="Casey Johnson">
+      <p>AI is a tool, not a product. With experience leading high-visibility AI projects at Disney and Universal, Casey is a worldwide expert in applied AI for attractions & hospitality. He holds a degree in computer science from West Virginia University.</p>
     </section>
+    <a href="mailto:casey.johnson@mountaineering.ai" class="cta">Get in touch</a>
     <hr class="hline">
     <p class="meta">
       <span>Orlando, FL</span>
       <span class="divider">·</span>
       <a href="mailto:casey.johnson@mountaineering.ai">casey.johnson@mountaineering.ai</a>
+      <span class="divider">·</span>
+      <a href="https://linkedin.com/in/caseyjohnsonwv" target="_blank" rel="noopener">LinkedIn</a>
     </p>
   </main>
 </body>
